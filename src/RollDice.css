@@ -1,0 +1,25 @@
+.RollDice{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#rollbtn {
+  width: 10em;
+  padding: 1.5em;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  margin: 2em;
+  font-size: medium;
+  font-weight: 900;
+  /* border: none; */
+  outline: none;
+}
+
+#rollbtn:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
